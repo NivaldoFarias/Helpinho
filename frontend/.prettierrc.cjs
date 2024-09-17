@@ -15,6 +15,7 @@ module.exports = {
 	quoteProps: "consistent",
 	singleAttributePerLine: true,
 	htmlWhitespaceSensitivity: "ignore",
+	importOrderParserPlugins: ["typescript", "decorators"],
 	overrides: [
 		{
 			files: ["*.d.ts", "*.json"],

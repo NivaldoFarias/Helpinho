@@ -2,6 +2,8 @@
     "compilerOptions": {
         // Type Checking
         "strict": true,
+        "allowJs": true,
+        "checkJs": true,
         "noImplicitReturns": true,
         "noImplicitOverride": true,
         "noFallthroughCasesInSwitch": true,
