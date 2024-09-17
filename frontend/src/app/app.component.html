@@ -1,3 +1,62 @@
-<main class="relative flex min-h-full w-full items-center justify-center p-4">Helpinho</main>
+<app-background-texture />
+
+<nav class="relative inline-flex h-20 w-full items-center justify-between px-32">
+	<div class="flex items-center justify-center gap-2">
+		<img
+			src="logo.svg"
+			alt="Logo"
+			class="h-12 w-auto"
+		/>
+		<app-logotype />
+	</div>
+	<menu class="flex items-center gap-14">
+		<a
+			href="#1"
+			class="hover:text-primary-500 font-sans text-base font-semibold text-neutral-400 decoration-2 underline-offset-8 transition-colors hover:underline"
+		>
+			Home
+		</a>
+		<a
+			href="#2"
+			class="hover:text-primary-500 font-sans text-base font-semibold text-neutral-400 decoration-2 underline-offset-8 transition-colors hover:underline"
+		>
+			Pesquisa
+		</a>
+		<a
+			href="#3"
+			class="hover:text-primary-500 font-sans text-base font-semibold text-neutral-400 decoration-2 underline-offset-8 transition-colors hover:underline"
+		>
+			Sobre
+		</a>
+	</menu>
+	<div class="flex items-center justify-between gap-2">
+		<button class="btn btn-secondary">
+			<span class="text-primary-500 text-sm font-semibold leading-tight">Registre-se grátis</span>
+		</button>
+		<button class="btn btn-primary">
+			<span class="text-secondary-50 text-sm font-semibold leading-tight">Login</span>
+		</button>
+	</div>
+</nav>
+
+<main class="relative flex min-h-full w-full items-center justify-center p-4 py-16">
+	<div></div>
+	<div class="flex items-end justify-center gap-10">
+		<picture>
+			<img
+				src="images/woman.png"
+				alt="Woman"
+				class="h-full w-full rounded-full"
+			/>
+		</picture>
+		<picture class="relative h-96 w-48">
+			<img
+				src="images/man.png"
+				alt="Man"
+				class="h-full w-full rounded-full"
+			/>
+		</picture>
+	</div>
+</main>
 
 <router-outlet />
