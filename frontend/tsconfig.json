@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        // Type Checking
+        "strict": true,
+        "noImplicitReturns": true,
+        "noImplicitOverride": true,
+        "noFallthroughCasesInSwitch": true,
+        "noPropertyAccessFromIndexSignature": true,
+
+        // Modules
+        "module": "ES2022",
+        "moduleResolution": "bundler",
+
+        // Completeness
+        "skipLibCheck": true,
+
+        // Interop Constraints
+        "isolatedModules": true,
+        "esModuleInterop": true,
+
+        // Emit
+        "sourceMap": true,
+        "declaration": false,
+        "importHelpers": true,
+        "outDir": "./dist/out-tsc",
+
+        // Language and Environment
+        "target": "ES2022",
+        "experimentalDecorators": true,
+        "lib": ["ES2022", "dom"]
+    },
+    "angularCompilerOptions": {
+        "strictTemplates": true,
+        "strictInjectionParameters": true,
+        "strictInputAccessModifiers": true,
+        "enableI18nLegacyMessageIdFormat": false
+    }
+}

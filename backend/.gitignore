@@ -4,6 +4,6 @@
 # Node.js
 node_modules
 
-# Others
+# Environment files
 **.env**
 !.env.example

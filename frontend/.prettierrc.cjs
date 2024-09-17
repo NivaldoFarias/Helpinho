@@ -1,4 +1,4 @@
-/** @type {import("@ianvs/prettier-plugin-sort-imports").PrettierConfig} */
+/** @type {import("@ianvs/prettier-plugin-sort-imports").PrettierConfig & import("prettier-plugin-tailwindcss").PluginOptions} */
 module.exports = {
 	semi: true,
 	tabWidth: 2,
@@ -10,8 +10,11 @@ module.exports = {
 	trailingComma: "all",
 	bracketSpacing: true,
 	arrowParens: "always",
+	jsxSingleQuote: false,
 	bracketSameLine: false,
 	quoteProps: "consistent",
+	singleAttributePerLine: true,
+	htmlWhitespaceSensitivity: "ignore",
 	overrides: [
 		{
 			files: ["*.d.ts", "*.json"],
@@ -22,7 +25,9 @@ module.exports = {
 			},
 		},
 	],
-	plugins: ["@ianvs/prettier-plugin-sort-imports"],
+	plugins: ["prettier-plugin-tailwindcss", "@ianvs/prettier-plugin-sort-imports"],
+
+	// @ianvs/prettier-plugin-sort-imports
 	importOrder: [
 		"<BUILTIN_MODULES>",
 		"",
