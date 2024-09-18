@@ -32,7 +32,7 @@ export default tseslint.config(
 				"error",
 				{
 					type: "element",
-					prefix: "app",
+					prefix: ["app", "ui"],
 					style: "kebab-case",
 				},
 			],

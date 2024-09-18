@@ -85,20 +85,22 @@ const colors = {
 
 export default {
 	presets: [tailwindPreset],
-	content: ["./src/**/*.{html,ts}"],
+	content: ["./src/**/*.{html,ts}", "./ui/**/*.{html,ts}"],
 	theme: {
-		colors: {
-			...colors,
-			Neutral: colors.neutral,
-			Primary: colors.primary,
-			Secondary: colors.secondary,
-			Success: colors.success,
-			Warning: colors.warning,
-			Error: colors.error,
-		},
-		fontFamily: {
-			sans: ["Inter", "Graphik", "sans-serif"],
-			serif: ["Merriweather", "serif"],
+		extend: {
+			colors: {
+				...colors,
+				Neutral: colors.neutral,
+				Primary: colors.primary,
+				Secondary: colors.secondary,
+				Success: colors.success,
+				Warning: colors.warning,
+				Error: colors.error,
+			},
+			fontFamily: {
+				sans: ["Inter", "Graphik", "sans-serif"],
+				serif: ["Merriweather", "serif"],
+			},
 		},
 	},
 } satisfies Config;

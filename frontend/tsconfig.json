@@ -1,6 +1,5 @@
 {
     "compilerOptions": {
-        // Type Checking
         "strict": true,
         "allowJs": true,
         "checkJs": true,
@@ -8,31 +7,25 @@
         "noImplicitOverride": true,
         "noFallthroughCasesInSwitch": true,
         "noPropertyAccessFromIndexSignature": true,
-
-        // Modules
         "module": "ES2022",
         "moduleResolution": "bundler",
         "paths": {
             "@components/*": ["./src/app/components/*"],
             "@pages/*": ["./src/app/pages/*"],
             "@services/*": ["./src/app/services/*"],
-            "@ui/*": ["./src/app/ui/*"]
+            "@ui/*": ["./src/app/ui/*"],
+            "@spartan-ng/ui-badge-helm": ["./ui/ui-badge-helm/src/index.ts"],
+            "@spartan-ng/ui-icon-helm": ["./ui/ui-icon-helm/src/index.ts"],
+            "@spartan-ng/ui-input-helm": ["./ui/ui-input-helm/src/index.ts"],
+            "@spartan-ng/ui-formfield-helm": ["./ui/ui-formfield-helm/src/index.ts"]
         },
-
-        // Completeness
         "skipLibCheck": true,
-
-        // Interop Constraints
         "isolatedModules": true,
         "esModuleInterop": true,
-
-        // Emit
         "sourceMap": true,
         "declaration": false,
         "importHelpers": true,
         "outDir": "./dist/out-tsc",
-
-        // Language and Environment
         "target": "ES2022",
         "experimentalDecorators": true,
         "lib": ["ES2022", "dom"]

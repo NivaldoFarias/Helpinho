@@ -12,6 +12,9 @@ yarn-error.log
 # Angular
 .angular
 
+# Nx
+.nx
+
 # IDEs and editors
 .idea/
 .project

@@ -34,10 +34,6 @@ export class HeroCardComponent {
 		headerImage: "images/header/office.webp",
 		badge: {
 			text: "Games",
-			colors: {
-				background: "bg-Primary-100",
-				text: "text-Primary-700",
-			},
 		},
 	};
 }
