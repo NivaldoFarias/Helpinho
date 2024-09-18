@@ -1,9 +1,9 @@
 import { Component } from "@angular/core";
 import { RouterOutlet } from "@angular/router";
 
-import { LogotypeComponent } from "./components/logotype/logotype.component";
-import { TextureComponent } from "./components/texture/texture.component";
-import { HomepageComponent } from "./pages/home/home.component";
+import { LogotypeComponent } from "@components/logotype/logotype.component";
+import { TextureComponent } from "@components/texture/texture.component";
+import { HomepageComponent } from "@pages/home/home.component";
 
 @Component({
 	selector: "app-root",

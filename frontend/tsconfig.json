@@ -12,6 +12,12 @@
         // Modules
         "module": "ES2022",
         "moduleResolution": "bundler",
+        "paths": {
+            "@components/*": ["./src/app/components/*"],
+            "@pages/*": ["./src/app/pages/*"],
+            "@services/*": ["./src/app/services/*"],
+            "@ui/*": ["./src/app/ui/*"]
+        },
 
         // Completeness
         "skipLibCheck": true,

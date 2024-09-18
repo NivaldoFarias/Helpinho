@@ -1,0 +1,115 @@
+<div
+	class="bg-Base-With inline-flex h-full w-96 flex-col items-start justify-start gap-4 rounded-3xl pb-8 shadow-lg"
+>
+	<div
+		class="relative flex h-56 flex-col items-end justify-end gap-2.5 self-stretch rounded-tl-3xl rounded-tr-3xl px-4 pb-3 pt-48"
+	>
+		<img
+			[src]="props.headerImage"
+			alt="Header Image"
+			class="absolute left-0 top-0 -z-10 h-full w-full rounded-tl-3xl rounded-tr-3xl"
+		/>
+		<ui-badge [props]="props.badge"></ui-badge>
+	</div>
+	<div class="flex h-52 flex-col items-start justify-start gap-8 self-stretch px-6">
+		<div class="flex h-36 flex-col items-start justify-start gap-4 self-stretch">
+			<div class="inline-flex h-9 items-start justify-start self-stretch">
+				<div class="flex items-center justify-start gap-2.5">
+					<img
+						class="h-8 w-8 rounded-full"
+						[src]="props.user.image"
+						alt="User Avatar"
+						loading="eager"
+					/>
+					<div class="inline-flex flex-col items-start justify-start">
+						<div class="font-['Inter'] text-sm font-semibold leading-tight text-Neutral-700">
+							{{ props.user.name }}
+						</div>
+						<div class="font-['Inter'] text-xs font-normal leading-none text-Neutral-600">
+							{{ props.user.handle }}
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="flex h-24 flex-col items-start justify-start gap-3 self-stretch">
+				<div class="flex h-24 flex-col items-start justify-start gap-3 self-stretch">
+					<div class="inline-flex items-start justify-start gap-4 self-stretch">
+						<div
+							class="shrink grow basis-0 font-['Inter'] text-2xl font-semibold leading-loose text-Neutral-900"
+						>
+							{{ props.title }}
+						</div>
+					</div>
+					<div
+						class="self-stretch font-['Inter'] text-base font-normal leading-normal text-Neutral-600"
+					>
+						{{ props.description }}
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="inline-flex items-start justify-start gap-2">
+			<div class="flex items-start justify-start">
+				<img
+					class="border-Base-With h-8 w-8 rounded-full border"
+					src="https://via.placeholder.com/32x32"
+					alt="User Avatar"
+				/>
+				<img
+					class="border-Base-With h-8 w-8 rounded-full border"
+					src="https://via.placeholder.com/32x32"
+					alt="User Avatar"
+				/>
+				<img
+					class="border-Base-With h-8 w-8 rounded-full border"
+					src="https://via.placeholder.com/32x32"
+					alt="User Avatar"
+				/>
+				<img
+					class="border-Base-With h-8 w-8 rounded-full border"
+					src="https://via.placeholder.com/32x32"
+					alt="User Avatar"
+				/>
+				<img
+					class="border-Base-With h-8 w-8 rounded-full border"
+					src="https://via.placeholder.com/32x32"
+					alt="User Avatar"
+				/>
+				<img
+					class="border-Base-With h-8 w-8 rounded-full border"
+					src="https://via.placeholder.com/32x32"
+					alt="User Avatar"
+				/>
+				<img
+					class="border-Base-With h-8 w-8 rounded-full border"
+					src="https://via.placeholder.com/32x32"
+					alt="User Avatar"
+				/>
+				<img
+					class="border-Base-With h-8 w-8 rounded-full border"
+					src="https://via.placeholder.com/32x32"
+					alt="User Avatar"
+				/>
+				<img
+					class="border-Base-With h-8 w-8 rounded-full border"
+					src="https://via.placeholder.com/32x32"
+					alt="User Avatar"
+				/>
+				<img
+					class="border-Base-With h-8 w-8 rounded-full border"
+					src="https://via.placeholder.com/32x32"
+					alt="User Avatar"
+				/>
+				<div
+					class="border-Base-With flex h-8 w-8 items-center justify-center rounded-full border-2 bg-Primary-50 py-1.5"
+				>
+					<div
+						class="w-8 text-center font-['Inter'] text-sm font-medium leading-tight text-Primary-500"
+					>
+						+5
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
