@@ -12,37 +12,43 @@
 	"description": "Plataforma de ajuda para ajudar e encontrar ajuda",
 	"icons": [
 		{
-			"src": "/android-chrome-512x512.webp",
+			"src": "/favicon/512x512.webp",
 			"sizes": "512x512",
 			"type": "image/webp",
 			"purpose": "any"
 		},
 		{
-			"src": "/android-chrome-192x192.webp",
+			"src": "/favicon/192x192.webp",
 			"sizes": "192x192",
 			"type": "image/webp",
 			"purpose": "any"
 		},
 		{
-			"src": "/favicon-16x16.webp",
+			"src": "/favicon/180x180.webp",
+			"sizes": "180x180",
+			"type": "image/webp",
+			"purpose": "any"
+		},
+		{
+			"src": "/favicon/16x16.webp",
 			"sizes": "16x16",
 			"type": "image/webp",
 			"purpose": "any"
 		},
 		{
-			"src": "/favicon-32x32.webp",
+			"src": "/favicon/32x32.webp",
 			"sizes": "32x32",
 			"type": "image/webp",
 			"purpose": "any"
 		},
 		{
-			"src": "/favicon.ico",
+			"src": "/favicon/favicon.ico",
 			"sizes": "32x32",
 			"type": "image/x-icon",
 			"purpose": "any"
 		},
 		{
-			"src": "/maskable.png",
+			"src": "/favicon/maskable.png",
 			"sizes": "160x160",
 			"type": "image/png",
 			"purpose": "maskable"
